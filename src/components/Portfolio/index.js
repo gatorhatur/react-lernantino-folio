@@ -1,25 +1,28 @@
 import React from 'react';
 import Project from '../Project';
+import giftPilot from '../../assets/images/gift-pilot.JPG';
+import runBuddy from '../../assets/images/run-buddy.jpg';
+import streamConnect from '../../assets/images/Stream-Connect-snippet.png';
 
 function Portfolio() {
     const projects = [{
-        name: '',
+        name: 'Gift Pilot',
         stack: '',
-        image: '',
+        image: giftPilot,
         liveUrl: '',
         repoUrl: ''
     },
     {
-        name: '',
+        name: 'Stream Connect',
         stack: '',
-        image: '',
+        image: streamConnect,
         liveUrl: '',
         repoUrl: ''
     },
     {
-        name: '',
+        name: 'Run Buddy',
         stack: '',
-        image: '',
+        image: runBuddy,
         liveUrl: '',
         repoUrl: ''
     },
