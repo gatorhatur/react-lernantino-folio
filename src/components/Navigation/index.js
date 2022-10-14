@@ -1,6 +1,7 @@
 import React from 'react';
 
-function Navigation() {
+//will take props for setCurrentPage and the useEffect for page highlighting
+function Navigation({setCurrentPage}) {
     return (
         <div>
             
