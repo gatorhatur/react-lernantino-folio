@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Project({name, repoUrl, liveUrl, image}) {
+function Project({name, repoUrl, liveUrl, image, stack}) {
     return (
         <div>
             
