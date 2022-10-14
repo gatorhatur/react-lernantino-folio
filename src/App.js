@@ -1,7 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import About from './Components/About';
 
 function App() {
+
+  const { currentPage, setCurrentPage } = useState('About');
+
   return (
     <div className="App">
       <header className="App-header">
