@@ -3,30 +3,43 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import About from './Components/About';
+import About from './components/About';
+import Resume from './components/Resume';
+import React, {useEffect, useState} from 'react';
 
 function App() {
 
   const { currentPage, setCurrentPage } = useState('About');
 
+  useEffect(() => {
+    console.log(`Current page is now ${currentPage}`);
+  },[currentPage])
+
+  function renderCurrentPage(pageValue) {
+    switch (pageValue) {
+      case 'About':
+        return (<About />);
+      case 'Contact':
+        return (<Contact />);
+      case 'Portfolio':
+        return (<Portfolio />);
+      case 'Resume':
+        return (<Resume />);
+      default:
+        return;
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      <main>
+          {renderCurrentPage(currentPage)}
+      </main>
+    <Footer />
     </div>
   );
 }
 
 export default App;
+
