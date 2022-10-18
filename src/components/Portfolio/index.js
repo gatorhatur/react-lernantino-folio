@@ -10,47 +10,49 @@ function Portfolio() {
         stack: '',
         image: giftPilot,
         liveUrl: '',
-        repoUrl: ''
+        repoUrl: 'https://github.com/gatorhatur/gift-pilot'
     },
     {
         name: 'Stream Connect',
         stack: '',
         image: streamConnect,
-        liveUrl: '',
-        repoUrl: ''
+        liveUrl: 'https://gatorhatur.github.io/stream-connect/',
+        repoUrl: 'https://github.com/gatorhatur/stream-connect'
     },
     {
         name: 'Run Buddy',
         stack: '',
         image: runBuddy,
         liveUrl: '',
-        repoUrl: ''
+        repoUrl: 'https://github.com/gatorhatur/run-buddy'
     },
     {
-        name: '',
+        name: 'PlaceHolder1',
         stack: '',
-        image: '',
+        image: giftPilot,
         liveUrl: '',
         repoUrl: ''
     },
     {
-        name: '',
+        name: 'PlaceHolder2',
         stack: '',
-        image: '',
+        image: streamConnect,
         liveUrl: '',
         repoUrl: ''
     },
     {
-        name: '',
+        name: 'PlaceHolder3',
         stack: '',
-        image: '',
+        image: runBuddy,
         liveUrl: '',
         repoUrl: ''
     }];
 
     return (
-        <div>
-            
+        <div className='d-flex flex-wrap justify-content-between mt-3'>
+            {projects.map(project => {
+                return <Project {...project} />
+            })}
         </div>
     );
 }

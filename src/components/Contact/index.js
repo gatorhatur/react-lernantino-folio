@@ -7,7 +7,7 @@ function Contact() {
 
     return (
         <div>
-            
+            My Contact Form
         </div>
     );
 }

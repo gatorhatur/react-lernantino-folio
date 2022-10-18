@@ -9,7 +9,9 @@ import React, {useEffect, useState} from 'react';
 
 function App() {
 
-  const { currentPage, setCurrentPage } = useState('About');
+  const [ currentPage, setCurrentPage ] = useState('About');
+
+  console.log(currentPage);
 
   useEffect(() => {
     console.log(`Current page is now ${currentPage}`);
@@ -18,7 +20,7 @@ function App() {
   function renderCurrentPage(pageValue) {
     switch (pageValue) {
       case 'About':
-        return (<About />);
+        return <About />;
       case 'Contact':
         return (<Contact />);
       case 'Portfolio':
@@ -33,7 +35,7 @@ function App() {
   return (
     <div>
     <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <main>
+      <main className='container'>
           {renderCurrentPage(currentPage)}
       </main>
     <Footer />

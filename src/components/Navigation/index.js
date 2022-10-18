@@ -1,22 +1,24 @@
 import React from 'react';
 
 //will take props for setCurrentPage and the useEffect for page highlighting
-function Navigation({setCurrentPage, currentPage}) {
+function Navigation({ currentPage, setCurrentPage }) {
+    console.log(currentPage);
+
     return (
-        <div className='d-flex justify-content-evenly'> //convert this to a list to make this work with the
-            <div className={`ms-3 display-3 ${currentPage === 'About' && "navActive"}`} onClick={() => setCurrentPage('About')}>
+        <ul className='d-flex justify-content-evenly list-unstyled nav'>
+            <li className={`ms-3 display-3 ${currentPage === 'About' ? 'opacity-100' : 'opacity-50'}`} onClick={() => setCurrentPage('About')}>
                 About Me
-            </div>
-            <div className='ms-3 display-3' onClick={() => setCurrentPage('Portfolio')}>
+            </li>
+            <li className={`ms-3 display-3 ${currentPage === 'Portfolio' ? 'opacity-100' : 'opacity-50'}`} onClick={() => setCurrentPage('Portfolio')}>
                 Portfolio
-            </div>
-            <div className='ms-3 display-3' onClick={() => setCurrentPage('Contact')}>
+            </li>
+            <li className={`ms-3 display-3 ${currentPage === 'Contact' ? 'opacity-100' : 'opacity-50'}`} onClick={() => setCurrentPage('Contact')}>
                 Contact
-            </div>
-            <div className='mx-3 display-3' onClick={() => setCurrentPage('Resume')}>
+            </li>
+            <li className={`ms-3 display-3 ${currentPage === 'Resume' ? 'opacity-100' : 'opacity-50'}`} onClick={() => setCurrentPage('Resume')}>
                 Resume
-            </div>
-        </div>
+            </li>
+        </ul>
     );
 }
 
