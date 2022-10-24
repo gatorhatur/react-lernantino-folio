@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-lernantino-folio/static/css/main.ebd760fe.css",
+    "main.js": "/react-lernantino-folio/static/js/main.41d810f8.js",
+    "static/js/787.6fa9f392.chunk.js": "/react-lernantino-folio/static/js/787.6fa9f392.chunk.js",
+    "static/media/Stream-Connect-snippet.png": "/react-lernantino-folio/static/media/Stream-Connect-snippet.108ef64e8437a8695179.png",
+    "static/media/MaterialIcons-Regular.eot": "/react-lernantino-folio/static/media/MaterialIcons-Regular.4674f8ded773cb03e824.eot",
+    "static/media/MaterialIcons-Regular.ttf": "/react-lernantino-folio/static/media/MaterialIcons-Regular.5e7382c63da0098d634a.ttf",
+    "static/media/Resume-Brandon-Davis.pdf": "/react-lernantino-folio/static/media/Resume-Brandon-Davis.7681dc5bde991f57bdc5.pdf",
+    "static/media/run-buddy.jpg": "/react-lernantino-folio/static/media/run-buddy.8805454f8bf155e00af8.jpg",
+    "static/media/MaterialIcons-Regular.woff": "/react-lernantino-folio/static/media/MaterialIcons-Regular.83bebaf37c09c7e1c3ee.woff",
+    "static/media/gift-pilot.JPG": "/react-lernantino-folio/static/media/gift-pilot.ca7c1e572e9b584ed245.JPG",
+    "static/media/MaterialIcons-Regular.woff2": "/react-lernantino-folio/static/media/MaterialIcons-Regular.cff684e59ffb052d72cb.woff2",
+    "index.html": "/react-lernantino-folio/index.html",
+    "main.ebd760fe.css.map": "/react-lernantino-folio/static/css/main.ebd760fe.css.map",
+    "main.41d810f8.js.map": "/react-lernantino-folio/static/js/main.41d810f8.js.map",
+    "787.6fa9f392.chunk.js.map": "/react-lernantino-folio/static/js/787.6fa9f392.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebd760fe.css",
+    "static/js/main.41d810f8.js"
+  ]
+}
