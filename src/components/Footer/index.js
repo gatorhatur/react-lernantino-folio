@@ -5,15 +5,15 @@ import instagram from '../../assets/images/Instagram_Glyph_White.png'
 
 function Footer() {
     return (
-        <div className='bg-dark d-flex justify-content-center fixed-bottom m-10'>
-            <a className='me-2' href='https://github.com/gatorhatur/' target='_blank' rel='noreferrer'>
+        <div className='bg-dark d-flex justify-content-center fixed-bottom p-0'>
+            <a className='me-2 my-2' href='https://github.com/gatorhatur/' target='_blank' rel='noreferrer'>
                 <img  src={github} alt='GitHub logo' height='64px'></img>
             </a>
-            <a className='me-2' href='https://www.linkedin.com/in/brandavis/' target='_blank' rel='noreferrer'>
-                <img  src={linkedIn} alt='LinkedIn logo' height='64px'></img>
+            <a className='me-2 my-2' href='https://www.linkedin.com/in/brandavis/' target='_blank' rel='noreferrer'>
+                <img  src={linkedIn} className="primary" alt='LinkedIn logo' height='64px'></img>
             </a>
-            <a href='https://github.com/gatorhatur/' target='_blank' rel='noreferrer'>
-                <img src={instagram} alt='Instagram logo' height='64px'></img>
+            <a className='my-2' href='https://github.com/gatorhatur/' target='_blank' rel='noreferrer'>
+                <img src={instagram} className="primary" alt='Instagram logo' height='64px'></img>
             </a>
         </div>
     );

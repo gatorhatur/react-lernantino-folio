@@ -22,23 +22,23 @@ function App() {
       case 'About':
         return <About />;
       case 'Contact':
-        return (<Contact />);
+        return <Contact />;
       case 'Portfolio':
-        return (<Portfolio />);
+        return <Portfolio />;
       case 'Resume':
-        return (<Resume />);
+        return <Resume />;
       default:
         return;
     }
   }
 
   return (
-    <div>
-    <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <main className='container'>
+    <div className='bg-light h-100'>
+      <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
+        <main className='container bg-light h-100 pb-5 mb-5'>
           {renderCurrentPage(currentPage)}
-      </main>
-    <Footer />
+        </main>
+        <Footer />
     </div>
   );
 }

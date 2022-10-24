@@ -4,10 +4,10 @@ import Navigation from '../Navigation';
 function Header({ currentPage, setCurrentPage }) {
     console.log(currentPage);
     return (
-        <div className="bg-light sticky-top d-flex justify-content-between align-items-end p-10">
-            <div className='ms-3 display-1'>Lernantino</div>
+        <header className="bg-light sticky-top d-flex flex-wrap justify-content-between align-items-end p-10">
+            <div className='ms-3 display-1 col-lg-3 col-md-6 col-12 text-center'>Lernantino</div>
             <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage} />
-        </div>
+        </header>
     );
 }
 
