@@ -32,6 +32,9 @@ function App() {
     }
   }
 
+//Fix portfolio rendering/object
+//add download link for resume
+
   return (
     <div className='bg-light h-100'>
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
