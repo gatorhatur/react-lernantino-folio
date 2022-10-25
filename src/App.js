@@ -36,9 +36,9 @@ function App() {
 //add download link for resume
 
   return (
-    <div className='bg-light h-100'>
+    <div className='h-100'>
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
-        <main className='container bg-light h-100 pb-5 mb-5'>
+        <main className='container pb-5 mb-5'>
           {renderCurrentPage(currentPage)}
         </main>
         <Footer />

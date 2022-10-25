@@ -7,23 +7,23 @@ import streamConnect from '../../assets/images/Stream-Connect-snippet.png';
 function Portfolio() {
     const projects = [{
         name: 'Gift Pilot',
-        stack: 'Test',
+        stack: 'Sequalize/Handlebars',
         image: giftPilot,
-        liveUrl: '',
+        liveUrl: 'https://gift-pilot.herokuapp.com/home',
         repoUrl: 'https://github.com/gatorhatur/gift-pilot'
     },
     {
         name: 'Stream Connect',
-        stack: 'Express',
+        stack: 'HTML/jQuery/Materialize',
         image: streamConnect,
         liveUrl: 'https://gatorhatur.github.io/stream-connect/',
         repoUrl: 'https://github.com/gatorhatur/stream-connect'
     },
     {
         name: 'Run Buddy',
-        stack: '',
+        stack: 'HTML/CSS',
         image: runBuddy,
-        liveUrl: '',
+        liveUrl: 'https://gatorhatur.github.io/run-buddy/',
         repoUrl: 'https://github.com/gatorhatur/run-buddy'
     },
     {
@@ -49,10 +49,9 @@ function Portfolio() {
     }];
 
     return (
-        <div className='d-flex flex-wrap justify-content-center mt-3'>
+        <div className='row justify-content-center mt-3'>
             {projects.map((project, index) => {
-                project[index] = index
-                return <Project {...project} />
+                return <Project project={project} key={index} />
             })}
         </div>
     );
