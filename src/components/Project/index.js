@@ -3,6 +3,7 @@ import github from '../../assets/images/GitHub-Mark-64px.png'
 
 
 
+
 function Project(project ) {
     const { name, repoUrl, liveUrl, image, stack, index } = project;
 
@@ -20,7 +21,7 @@ function Project(project ) {
 
             <div className={`position-absolute top-50 start-50 translate-middle ${!visible && 'invisible'}`}>
                 <h2 className='me-3'><a href={liveUrl} className="text-decoration-none text-reset" target='_blank' rel='noreferrer'>{name}</a></h2>
-                <a href={repoUrl} target='_blank' rel='noreferrer'><img src={github} className='position-absolute top-0 start-100 img-fluid' alt='github logo'></img></a>
+                <a href={repoUrl} target='_blank' rel='noreferrer'><img src={github} className='position-absolute top-0 start-100 img-fluid github-logo' alt='github logo'></img></a>
                 <h3>{stack}</h3>
             </div>
         </div>
