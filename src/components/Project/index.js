@@ -16,11 +16,11 @@ function Project(project ) {
     }
 
     return (
-        <div key={`project-${index}`} className='position-relative' onMouseEnter={() => handleMouseOver(true)} onMouseLeave={() => handleMouseOver(false)}>
-            <img className={`m-3 shadow rounded ${opaque && 'opacity-25'} project-sample`} src={image} alt={name} height='200'width='500'></img>
+        <div className='mt-3 me-1 mx-3 position-relative col-10 col-md-5' onMouseEnter={() => handleMouseOver(true)} onMouseLeave={() => handleMouseOver(false)}>
+            <img className={`shadow img-fluid rounded ${opaque && 'opacity-25'} project-sample`} src={image} alt={name} ></img>
 
             <div className={`position-absolute top-50 start-50 translate-middle ${!visible && 'invisible'}`}>
-                <h2 className='me-3'><a href={liveUrl} className="text-decoration-none text-reset" target='_blank' rel='noreferrer'>{name}</a></h2>
+                <h2 className='text-danger'><a href={liveUrl} className="text-decoration-none text-reset" target='_blank' rel='noreferrer'>{name}</a></h2>
                 <a href={repoUrl} target='_blank' rel='noreferrer'><img src={github} className='position-absolute top-0 start-100 img-fluid github-logo' alt='github logo'></img></a>
                 <h3>{stack}</h3>
             </div>
