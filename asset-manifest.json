@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-lernantino-folio/static/css/main.fe21f97e.css",
+    "main.css": "/react-lernantino-folio/static/css/main.b4aa3bdc.css",
     "main.js": "/react-lernantino-folio/static/js/main.022eb67c.js",
     "static/js/787.6fa9f392.chunk.js": "/react-lernantino-folio/static/js/787.6fa9f392.chunk.js",
     "static/media/Stream-Connect-snippet.png": "/react-lernantino-folio/static/media/Stream-Connect-snippet.108ef64e8437a8695179.png",
@@ -8,12 +8,12 @@
     "static/media/run-buddy.jpg": "/react-lernantino-folio/static/media/run-buddy.8805454f8bf155e00af8.jpg",
     "static/media/gift-pilot.JPG": "/react-lernantino-folio/static/media/gift-pilot.ca7c1e572e9b584ed245.JPG",
     "index.html": "/react-lernantino-folio/index.html",
-    "main.fe21f97e.css.map": "/react-lernantino-folio/static/css/main.fe21f97e.css.map",
+    "main.b4aa3bdc.css.map": "/react-lernantino-folio/static/css/main.b4aa3bdc.css.map",
     "main.022eb67c.js.map": "/react-lernantino-folio/static/js/main.022eb67c.js.map",
     "787.6fa9f392.chunk.js.map": "/react-lernantino-folio/static/js/787.6fa9f392.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe21f97e.css",
+    "static/css/main.b4aa3bdc.css",
     "static/js/main.022eb67c.js"
   ]
 }
