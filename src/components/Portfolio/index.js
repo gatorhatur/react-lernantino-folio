@@ -5,25 +5,25 @@ import runBuddy from '../../assets/images/run-buddy.jpg';
 import streamConnect from '../../assets/images/Stream-Connect-snippet.png';
 
 function Portfolio() {
-    const projects = [{
+const projects = [{
         name: 'Gift Pilot',
-        stack: 'Test',
+        stack: 'Sequalize/Handlebars',
         image: giftPilot,
-        liveUrl: '',
+        liveUrl: 'https://gift-pilot.herokuapp.com/home',
         repoUrl: 'https://github.com/gatorhatur/gift-pilot'
     },
     {
         name: 'Stream Connect',
-        stack: 'Express',
+        stack: 'HTML/jQuery/Materialize',
         image: streamConnect,
         liveUrl: 'https://gatorhatur.github.io/stream-connect/',
         repoUrl: 'https://github.com/gatorhatur/stream-connect'
     },
     {
         name: 'Run Buddy',
-        stack: '',
+        stack: 'HTML/CSS',
         image: runBuddy,
-        liveUrl: '',
+        liveUrl: 'https://gatorhatur.github.io/run-buddy/',
         repoUrl: 'https://github.com/gatorhatur/run-buddy'
     },
     {
