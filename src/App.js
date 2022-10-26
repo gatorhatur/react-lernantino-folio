@@ -5,7 +5,8 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import About from './components/About';
 import Resume from './components/Resume';
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
+
 
 function App() {
 
