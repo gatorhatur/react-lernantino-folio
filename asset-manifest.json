@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-lernantino-folio/static/css/main.2d4cedbd.css",
-    "main.js": "/react-lernantino-folio/static/js/main.e6555197.js",
+    "main.js": "/react-lernantino-folio/static/js/main.9ed2e02f.js",
     "static/js/787.6fa9f392.chunk.js": "/react-lernantino-folio/static/js/787.6fa9f392.chunk.js",
     "static/media/Stream-Connect-snippet.png": "/react-lernantino-folio/static/media/Stream-Connect-snippet.108ef64e8437a8695179.png",
     "static/media/Resume-Brandon-Davis.pdf": "/react-lernantino-folio/static/media/Resume-Brandon-Davis.7681dc5bde991f57bdc5.pdf",
@@ -9,11 +9,11 @@
     "static/media/gift-pilot.JPG": "/react-lernantino-folio/static/media/gift-pilot.ca7c1e572e9b584ed245.JPG",
     "index.html": "/react-lernantino-folio/index.html",
     "main.2d4cedbd.css.map": "/react-lernantino-folio/static/css/main.2d4cedbd.css.map",
-    "main.e6555197.js.map": "/react-lernantino-folio/static/js/main.e6555197.js.map",
+    "main.9ed2e02f.js.map": "/react-lernantino-folio/static/js/main.9ed2e02f.js.map",
     "787.6fa9f392.chunk.js.map": "/react-lernantino-folio/static/js/787.6fa9f392.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d4cedbd.css",
-    "static/js/main.e6555197.js"
+    "static/js/main.9ed2e02f.js"
   ]
 }
